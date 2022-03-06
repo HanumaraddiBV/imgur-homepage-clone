@@ -1,0 +1,127 @@
+.container {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("images/homebg.png");
+  height: 500px;
+  border: 1px solid red;
+  margin: -20px -30px;
+  padding: 10px;
+}
+body {
+  font-family: "Proxima Nova Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+#navBar {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo img {
+  width: 90px;
+  height: 35px;
+  border-radius: 2px;
+}
+#new-post {
+  border-radius: 4px;
+  /* border: 1px solid teal; */
+  background-color: #1bb76e;
+  width: 140px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+#new-post i {
+  float: left;
+  font-size: 24px;
+  margin: 5px;
+  color: aliceblue;
+}
+#new-post p, #right-div p{
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#left-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  float: left;
+}
+#search-box {
+  margin: auto;
+  border: 1px solid #454469;
+  border-radius: 4px;
+  width: 500px;
+  align-items: center;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+}
+#search-box input {
+  height: 100%;
+  width: 93%;
+  background-color: #454469;
+  font-weight: 500;
+ 
+  border: transparent;
+}
+#search-box input:focus {
+  outline: none;
+}
+
+#sign-in {
+  border-radius: 4px;
+  background-color: #1bb76e;
+  width: 100px;
+  height: 34px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  border: transparent;
+}
+#right-div {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  float: right;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+#head-p p {
+  font-size: 21px;
+  color: #aed8ea;
+  font-weight: 800;
+}
+#search-btn {
+  background-color: #454469;
+  font-weight: 500;
+
+  border: transparent;
+
+  height: 100%;
+}
+#search-btn i {
+  font-size: 21px;
+}
+#right-div i{
+    font-size: 20px;
+    color: aliceblue;
+}
+#ad-btn{
+    background-color: #6432f9;
+    width: 100px;
+    height: 34px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    border: transparent;
+}
