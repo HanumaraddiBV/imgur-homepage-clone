@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/153a3633fa.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/153a3633fa.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -19,32 +22,118 @@
           </div>
         </div>
         <div id="search-box">
-          <input type="text" placeholder="Images,#tags,@users og my!" />
-          <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input id="inp-val" type="text" placeholder="Images,#tags,@users og my!" />
+          <button id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
         <div id="right-div">
           <div><i class="fa-solid fa-ankh"></i></div>
-          <button id="ad-btn">
-            Go Ad-Free
-        </button>
-          <div><p>
-            Sign in
-          </p>   
-          </div>
-          <button id="sign-in">
-              Sign up
-          </button>
+          <button id="ad-btn">Go Ad-Free</button>
+          <div><p>Sign in</p></div>
+          <button id="sign-in">Sign up</button>
         </div>
       </nav>
-      <div id="head-p" style="margin: auto; text-align: center;">
-          <p>Today is your day! You can do the thing.</p>
+      <div id="head-p" style="margin: auto; text-align: center">
+        <p>Today is your day! You can do the thing.</p>
       </div>
-      <div>
-          <div>
-              <p>EXPLORE TAGS</p>
-              <p>MORE TAGS +</p>
+      <div id="more-tags">
+        <div id="explore-tags">
+          <p>EXPLORE TAGS</p>
+          <p>MORE TAGS +</p>
+        </div>
+        <div id="explore-div">
+          <div class="parent">
+            <div class="child" id="more">
+              <div class="first"><img src="images/1fDftsZ_d.jpg" alt="" /></div>
+              <div class="second">
+                <p class="font1">Hydraulic Press</p>
+                <p class="font2">FEATURED.270 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first"><img src="images/9r1qCDq_d.jpg" alt="" /></div>
+              <div class="second" id="second1">
+                <p class="font1">Imgur13</p>
+                <p class="font2">7,838 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first">
+                <img src="images/1z4dgZT_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second2">
+                <p class="font1">Vintage</p>
+                <p class="font2">8,931 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first">
+                <img src="images/avRBRpN_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second3">
+                <p class="font1">Pokemon</p>
+                <p class="font2">52,600 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first" style="height: 40%">
+                <img src="images/4LBx79U_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second4">
+                <p class="font1">Black History Month</p>
+                <p class="font2">184 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first" style="height: 40%">
+                <img src="images/bdRjrrI_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second5">
+                <p class="font1">Science And Tech</p>
+                <p class="font2">44,949 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first">
+                <img src="images/DbQMO3A_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second6">
+                <p class="font1">Staff Picks</p>
+                <p class="font2">6,538 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first">
+                <img src="images/nrFCOUB_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second7">
+                <p class="font1">Gaming</p>
+                <p class="font2">298,255 Posts</p>
+              </div>
+            </div>
+            <div class="child">
+              <div class="first">
+                <img src="images/4kmYoey_d.jpg" alt="" />
+              </div>
+              <div class="second" id="second8">
+                <p class="font1">Memes</p>
+                <p class="font2">571,224 Posts</p>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
+    <div id="imgs-div">
+      <div id="viral-tags">
+        <div>MOST VIRAL <i class="fa-solid fa-caret-down"></i></div>
+        <div id="newest-div">
+          <div>NEWEST <i class="fa-solid fa-caret-down"></i></div>
+          <div><i class="fa-solid fa-align-justify"></i> <i class="fa-solid fa-film"></i><i class="fa-solid fa-grid-2"></i></div>
+        </div>
+      </div>
+      <div id="post-container"></div>
     </div>
   </body>
   <script src="index.js"></script>
